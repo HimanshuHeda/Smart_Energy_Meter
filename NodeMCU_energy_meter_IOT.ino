@@ -10,8 +10,8 @@ const char* ssid = "Myrr";
 const char* password = "alanbiju01";
 
 // ==== Telegram Config ====
-#define BOT_TOKEN "8390157411:AAEc4dEo2-95ceEZYNGsbR-rgRL_2TddwJg"
-String chat_id = "877205942";
+#define BOT_TOKEN ""  // Enter your bot token here
+String chat_id = ""; // Your chat ID (get it from Telegram)
 WiFiClientSecure secured_client;
 UniversalTelegramBot bot(BOT_TOKEN, secured_client);
 
